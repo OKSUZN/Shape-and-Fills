@@ -3,7 +3,7 @@ import turtle as turtle
 colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'black'] 
 
 # set colors for turtle
-turtle.color('red', 'blue')    # Red is de lijn kleur en Blue is de fill kleur daarom dat we de , gebruiken
+turtle.color('red', 'blue')    # Red is de lijn kleur en Blue is de fill kleur daarom dat we de komma erachter gebruiken voor ze te onderscheiden van mekaar
 
 # set pen size
 turtle.pensize(5)   # Dit veranderd de size of de lijn van je pen tijdens het tekenen 
@@ -25,4 +25,4 @@ for x in range(4):      #Range is dat hij 4x het zelfde gaat uitvoeren in dit ge
     turtle.right(90)
 turtle.end_fill()   # Dit beëindigt het vullen van de figuur.
 
-turtle.mainloop()
+turtle.mainloop()   # Je kan ook turtle.done() gebruiken
