@@ -23,6 +23,6 @@ turtle.begin_fill()
 for x in range(4):      #Range is dat hij 4x het zelfde gaat uitvoeren in dit geval , 4x forward(100) en 4x right(90)
     turtle.forward(100)
     turtle.right(90)
-turtle.end_fill()   # Dit beëindigt het vullen van de figuur.
+turtle.end_fill()   # Dit beëindigt het inkleuren van het figuur.
 
 turtle.mainloop()   # Je kan ook turtle.done() gebruiken
